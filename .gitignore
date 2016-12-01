@@ -6,3 +6,5 @@ __pycache__
 staticfiles
 .ipynb_checkpoints/
 /.pypirc
+dist
+.pypirc
