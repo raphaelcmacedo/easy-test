@@ -1,15 +1,22 @@
 from distutils.core import setup
 
 setup(
-    name='django_easy_test',
-    version='0.0.1',
-    packages=['easy_test'],
+    name='django-easy-test',
+    version='0.2',
+    packages=[
+        'easy_test',
+        'easy_test.cases',
+        'easy_test.metas',
+        'easy_test.mixins',
+        ],
     url='https://github.com/raphaelcmacedo/easy-test',
     license='MIT',
     author='Raphael Macedo',
     author_email='raphaelcmacedo@hotmail.com',
     description='An extension of django tests that contains premade cases with the most comom tests for a web application',
     platforms='any',
+    install_requires=[],
+    zip_safe=True,
     include_package_data=True,
     classifiers=[
           'Development Status :: 2 - Pre-Alpha',

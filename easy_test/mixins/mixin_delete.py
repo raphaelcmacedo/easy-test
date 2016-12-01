@@ -1,5 +1,6 @@
 from easy_test.mixins.mixin_html import HtmlMixin
 
+
 class GetDeleteMixin():
 
     def test_get(self):
