@@ -1,5 +1,3 @@
-import collections
-
 from easy_test.metas.meta_html import HtmlMeta
 from easy_test.util import contains_option
 

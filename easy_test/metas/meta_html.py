@@ -1,13 +1,13 @@
 import collections
 
 from easy_test.metas.base import BaseMeta
-from easy_test.util import contains_option, HttpMethods
+from easy_test.util import contains_option
 
 
 class HtmlMeta(BaseMeta):
 
     def validate(cls, meta, module, name):
-        super().validate(cls, meta, module, name)
+        super().validate(meta, module, name)
 
         #url
         if not contains_option(meta, 'url'):

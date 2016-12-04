@@ -7,7 +7,7 @@ from easy_test.util import contains_option
 class ModelMeta(BaseMeta):
 
     def validate(cls, meta, module, name):
-        super().validate(cls, meta, module, name)
+        super().validate(meta, module, name)
 
         #blank_fields
         if contains_option(meta, 'blank_fields'):
