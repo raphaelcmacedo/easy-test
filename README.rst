@@ -115,6 +115,8 @@ Same test using Easy Test
 '''''''''''''''''''''''''
 
 .. code:: console
+
+
    class TaskFormEasyTest(FormTest):
        class Meta:
            obj = Task(

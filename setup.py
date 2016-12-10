@@ -1,8 +1,12 @@
 from distutils.core import setup
+import os
+
+README = os.path.join(os.path.dirname(__file__), 'README.rst')
 
 setup(
     name='django-easy-test',
     version='0.2',
+    long_description=open(README).read(),
     packages=[
         'easy_test',
         'easy_test.cases',
