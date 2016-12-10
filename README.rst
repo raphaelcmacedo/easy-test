@@ -4,7 +4,7 @@ Easy Test
 A unit test framework for Django that will make your unit tests as easy
 as it should be
 
-|Code Health|
+|Code Health| |Build Status| |Pypi Version| |Pypi Downaloads| |License|
 
 What is Easy Test?
 ------------------
@@ -138,3 +138,16 @@ Same test using Easy Test
 
 .. |Code Health| image:: https://landscape.io/github/raphaelcmacedo/easy-test/master/landscape.svg?style=flat
    :target: https://landscape.io/github/raphaelcmacedo/easy-test/master
+.. |Build Status| image:: https://img.shields.io/travis/raphaelcmacedo/easy-test.svg
+    :target: https://travis-ci.org/henriquebastos/easy-test
+    :alt: Build Status
+.. |Pypi Version| image:: https://img.shields.io/pypi/v/django-easy-test.svg
+    :target: https://pypi.python.org/pypi/django-easy-test/
+    :alt: Latest PyPI version
+.. |Pypi Downaloads| image:: https://img.shields.io/pypi/dm/django-easy-test.svg
+    :target: https://pypi.python.org/pypi/django-easy-test/
+    :alt: Number of PyPI downloads
+.. |License| image:: https://img.shields.io/github/license/raphaelcmacedo/easy-test.svg
+    :target: https://pypi.python.org/pypi/django-easy-test/
+    :alt: License
+
