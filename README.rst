@@ -4,7 +4,7 @@ Easy Test
 A unit test framework for Django that will make your unit tests as easy
 as it should be
 
-|Code Health| |Build Status| |Pypi Version| |Pypi Downaloads| |License|
+|Code Health| |Pypi Version| |Pypi Downaloads| |License|
 
 What is Easy Test?
 ------------------
