@@ -5,7 +5,7 @@ README = os.path.join(os.path.dirname(__file__), 'README.rst')
 
 setup(
     name='django-easy-test',
-    version='0.2',
+    version='1.0',
     long_description=open(README).read(),
     packages=[
         'easy_test',
@@ -23,7 +23,7 @@ setup(
     zip_safe=True,
     include_package_data=True,
     classifiers=[
-          'Development Status :: 2 - Pre-Alpha',
+          'Development Status :: 5 - Production/Stable',
           'Framework :: Django',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: MIT License',
