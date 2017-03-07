@@ -24,7 +24,7 @@ Download the module using pip:
 
 Then add it to your INSTALLED\_APPS on your settings.py:
 
-.. code:: console
+.. code:: python
 
     INSTALLED_APPS = (
         # ...
@@ -37,7 +37,7 @@ How to use?
 To use it simply extend the wanted test case configuring it with a meta
 class:
 
-.. code:: console
+.. code:: python
 
     class MyTest(FormTest):
         class Meta:
@@ -54,7 +54,7 @@ with Easy Test. Please find an example below:
 A conventional form test
 ''''''''''''''''''''''''
 
-.. code:: console
+.. code:: python
 
      class TaskNewGet(TestCase):
         def setUp(self):
@@ -114,7 +114,7 @@ A conventional form test
 Same test using Easy Test
 '''''''''''''''''''''''''
 
-.. code:: console
+.. code:: python
 
 
    class TaskFormEasyTest(FormTest):
